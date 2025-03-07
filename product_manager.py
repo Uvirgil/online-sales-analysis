@@ -21,6 +21,6 @@ class ProductManager:
         total_value = 0
         for product in self.products:
             total_value += product.price * product.quantity
-        return total_value
+        print (f"Total stock values: {total_value:.2f} £")
         
     
