@@ -7,7 +7,7 @@ class Product:
         self.quantity = quantity
         
     def display_info(self):
-        return f"Product: {self.name} |Price: {self.price:.2f} |Quantity: {self.quantity}"
+        return f"Product: {self.name} |Price: {self.price:.2f} £ |Quantity: {self.quantity}"
         
     def update_quantity(self, value):
         self.quantity += value
