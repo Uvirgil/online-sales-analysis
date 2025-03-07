@@ -1,0 +1,7 @@
+## ignore the file config.json
+config.json
+
+## ignore screenshots and images
+*.png
+*.jpeg
+*.jpg
